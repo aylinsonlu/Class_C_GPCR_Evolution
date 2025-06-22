@@ -21,6 +21,15 @@ This repository is organized into three main folders:
 
 This folder contains the source code and scripts used to perform the SDP score calculations. 
 
+To calculate the SDP score for a domain of a subfamily, you primarily need to run `Test_SDP.R`.
+
+This main script calculates the SDP scores by calling functions from the other scripts:
+
+It first uses functions from `PHACT_ComputeScore_Upd.R` to compute initial, phylogeny-based scores for each subfamily from the provided alignments and tree files.
+Next, it calls `Specifictiy_Code_2.R` to take those initial scores, weigh them by phylogenetic distance between subfamilies, and calculate the final, weighted SDP score.
+Finally, `ComputeThresholds.R` can be used as a separate script to analyze the final SDP score files and determine a significance threshold for identifying the most important positions.
+
+
 ### 2. `Domain_based_SDP_analysis_files/`
 
 This folder contains the necessary input files. For each receptor and each of its domains, there are:
@@ -37,13 +46,6 @@ This folder contains the final output of the analysis. It includes the calculate
 * **Phylogenetic Inference**: [IQ-TREE (v2.0.6)](http://www.iqtree.org/)
 * **SDP Calculation**: `PHACT_ComputeScore_Upd.R`, `Specifictiy_Code_2.R`, `Test_SDP.R`, `ComputeThresholds.R`
 
-To calculate the SDP score for a domain of a subfamily, you primarily need to run `Test_SDP.R`.
-
-This main script calculates the SDP scores by calling functions from the other scripts:
-
-It first uses functions from `PHACT_ComputeScore_Upd.R` to compute initial, phylogeny-based scores for each subfamily from the provided alignments and tree files.
-Next, it calls `Specifictiy_Code_2.R` to take those initial scores, weigh them by phylogenetic distance between subfamilies, and calculate the final, weighted SDP score.
-Finally, `ComputeThresholds.R` can be used as a separate script to analyze the final SDP score files and determine a significance threshold for identifying the most important positions.
 
 # Sequence Conservation Analysis
 
