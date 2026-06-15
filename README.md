@@ -1,3 +1,13 @@
+# Class C GPCRs Lack Shared Activation Switches but Exhibit Subfamily-Specific Residue Signatures Article Files
+
+This repository contains the scripts used for the analyses described below. Large files are archived on Zenodo.
+
+## Data Availability
+
+The full analysis files are available on Zenodo: **[insert Zenodo DOI or record URL here]**.
+
+Folder names on Zenodo match the folder names referenced in this README. To reproduce the analyses, download the archived files from Zenodo and place each folder in the corresponding location in this repository. For example, the Zenodo folders `SDP_codes/`, `Domain_based_SDP_analysis_files/`, `SDP_score_files/`, `subfamily_sequences/`, `einsi/`, `raxml-ng/`, `likes_removed_trees/`, `class_c_rep_tree/`, and `GABBA_Docking/` correspond to the same folder names described below.
+
 # Specificity-Determining Position (SDP) Score Analysis
 
 `SDP` folder contains the scripts, multiple sequence alignment and ancestral seqeunce resconstruction files, and final scores for the analysis of SDPs in Class C GPCR subfamilies. The goal of this analysis is to identify key residues that confer functional specificity to each subfamily.
