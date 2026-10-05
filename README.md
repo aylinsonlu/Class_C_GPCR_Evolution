@@ -4,8 +4,7 @@ This repository contains the scripts used for the analyses described below. Larg
 
 ## Data Availability
 
-The full analysis files are available on Zenodo at https://doi.org/10.5281/zenodo.20700272 <img width="468" height="13" alt="image" src="https://github.com/user-attachments/assets/21245db0-3eb6-4814-9a35-0f56edd889ef" />
-.
+The full analysis files are available on Zenodo at https://doi.org/10.5281/zenodo.20700272 
 
 Folder names on Zenodo match the folder names referenced in this README. To reproduce the analyses, download the archived files from Zenodo and place each folder in the corresponding location in this repository. For example, the Zenodo folders `SDP_codes/`, `Domain_based_SDP_analysis_files/`, `SDP_score_files/`, `subfamily_sequences/`, `einsi/`, `raxml-ng/`, `likes_removed_trees/`, `class_c_rep_tree/`, and `GABBA_Docking/` correspond to the same folder names described below.
 
