@@ -1,4 +1,4 @@
-# Class C GPCRs Lack Shared Activation Switches but Exhibit Subfamily-Specific Residue Signatures Article Files
+# Domain Architecture and Subfamily-Specific Residues Shape Class C GPCR Diversification
 
 This repository contains the scripts used for the analyses described below. Large files are archived on Zenodo.
 
